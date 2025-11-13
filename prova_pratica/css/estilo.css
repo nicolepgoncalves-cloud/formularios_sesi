@@ -21,3 +21,21 @@ fieldset{
     color: white;
     border-color: gold;
 }
+
+#dados{
+    border-radius: 5px;
+    width: 1200px;
+    height: 25px;
+}
+
+#observacoes{
+    resize: none;
+}
+
+#raca{
+    width: 40%;
+}
+
+#planet{
+    width: 40%;
+}
