@@ -1,0 +1,23 @@
+body{
+    background-image: url(../_imagem/goku.png);
+    background-color: indigo;
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    
+}
+
+h1{
+    color: goldenrod;
+    text-align: center;
+    background-color: darkmagenta;
+    border-radius: 10px;
+    border-style: dotted;
+    font-family: cursive;
+} 
+ 
+fieldset{
+    color: white;
+    border-color: gold;
+}

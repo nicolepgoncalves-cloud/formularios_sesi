@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h2>Formulario Superaçaiajin</h2>
-    <hr>
+    <h1>Formulario Superaçaiajin</h1>
+    
     <form>
         <fieldset>
             <legend>Dados pessoais</legend>
-            <label for="name">Nome:</label><br>
+            <label for="name">Nome:</label><br><br>
             <input type="text" name="name"><br><br>
-            <label for="number">Idade:</label><br>
+            <label for="number">Idade:</label><br><br>
             <label for="number" number="number"></label>
             <input type="number" number="number"><br><br>
-            <label for="number">Telefone:</label><br>
+            <label for="number">Telefone:</label><br><br>
             <input type="number" number="number"><br><br>
-            <label for="text">Endereço:</label><br>
-            <input type="text" text="text"><br><br>
-            <label for="planet">Planeta de Origem</label><br>
+            <label for="text">Endereço:</label><br><br>
+            <input type="text" text="text"><br><br><br>
+            <label for="planet">Planeta de Origem</label><br><br>
             <select name="planet" id="planet">
                 <option>Planeta Terra</option>
                 <option>Planeta NameK</option>
@@ -29,7 +30,8 @@
             </select>
         </fieldset>
     </form>
-    <hr>
+    
+    <form>
     <fieldset>
         <legend>Dados extras</legend>
         <label from="raca">Raça do universo 7 preferencia</label>
@@ -50,7 +52,9 @@
         <input type="radio" name="job" id="goku" value="goku">
         <label for="goku">Tipo Goku</label>
     </fieldset>
-    <hr>
+    </form>
+    
+    <form>
     <fieldset>
         <legend>Seu açai é perfeito de que jeito?</legend>
         <input type="checkbox" name="acai1" value="puro">Puro
@@ -59,9 +63,24 @@
         <input type="checkbox" name="acai4" value="granola">Com Granola
         <input type="checkbox" name="acai5" value="terra">Tem gosto de terra
     </fieldset>
-    <hr>
+    </form>
+    
+    <form>
     <fieldset>
-        <legend></legend>
+        <legend>Qual o tamanho preferido?</legend>
+        <input type="radio" name="tamanho" value="500">500ml
+        <input type="radio" name="tamanho2" value="300">300ml
+        <input type="radio" name="tamanho3" value="100">100ml
+        <input type="radio" name="tamanho4" value="casquinha">Casquinha
+        <input type="radio" name="tamanho5" value="terra">Qual parte do gosto de terra você não entendeu?
     </fieldset>
+    </form>
+    
+    <form>
+    <fieldset>
+        <label for="observacoes">Observaçoes:</label><br>
+        <textarea name="observacoes" id="observacoes" cols="30" rows="4"></textarea>
+    </fieldset>
+    </form>
 </body>
 </html>
